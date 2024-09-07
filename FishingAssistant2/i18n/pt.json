@@ -1,173 +1,173 @@
 {
-  "mod-name": "Fishing Assistant 2", //New
-  /// General ///
-  "on": "On", //New
-  "off": "Off", //New
-  "left": "Left", //New
-  "right": "Right", //New
-  "top": "Top", //New
-  "bottom": "Bottom", //New
-  "upper-left": "Upper Left", //New
-  "upper-right": "Upper Right", //New
-  "lower-left": "Lower Left", //New
-  "lower-right": "Lower Right", //New
-  "default": "Default", //New
-  "always": "Always", //New
-  "never": "Never", //New
-  "stop-loot": "Stop Loot", //New
-  "drop-remaining": "Drop Remaining", //New
-  "discard-remaining": "Discard Remaining", //New
-  "any": "Any", //New
-  "none": "None", //New
-  "silver": "Silver", //New
-  "gold": "Gold", //New
-  "iridium": "Iridium", //New
-  "warn-only": "Warn Only", //New
-  "warn-and-pause": "Warn And Pause", //New
-  "skip-all": "Skip All", //New
-  "skip-only-caught": "Skip Only Caught Fish", //New
-  "instant-unlock": "Instant Unlock", //New
-  "never-unlock": "Never Unlock", //New
-  "second": "{0} Second", //New
-  /// Config Menu ///
-  "config-menu.page.general": "General", //New
-  "config-menu.page.mini-game": "Mini-Game", //New
-  "config-menu.page.fishing-rod": "Fishing Rod", //New
-  "config-menu.title.go-to-page": "Go To Pages", //New
-  /// KEY BINDING ///
-  "config-menu.title.key-binding": "Key Binding", //New
-  "config-menu.option.toggle-automation": "Toggle Automation Button", //New
-  "config-menu.option.catch-treasure": "Catch Treasure Button", //New
-  "config-menu.option.open-config-menu": "Open Config Menu", //New
+  "mod-name": "Assistente de Pesca 2", 
+  /// Geral ///
+  "on": "Ligado", 
+  "off": "Desligado", 
+  "left": "Esquerda", 
+  "right": "Direita", 
+  "top": "Topo", 
+  "bottom": "Fundo", 
+  "upper-left": "Superior Esquerdo", 
+  "upper-right": "Superior Direito", 
+  "lower-left": "Inferior Esquerdo", 
+  "lower-right": "Inferior Direito", 
+  "default": "Padrão", 
+  "always": "Sempre", 
+  "never": "Nunca", 
+  "stop-loot": "Parar de Saquear", 
+  "drop-remaining": "Descartar Restante", 
+  "discard-remaining": "Eliminar Restante", 
+  "any": "Qualquer", 
+  "none": "Nenhum", 
+  "silver": "Prata", 
+  "gold": "Ouro", 
+  "iridium": "Irídio", 
+  "warn-only": "Somente Avisar", 
+  "warn-and-pause": "Avisar e Pausar", 
+  "skip-all": "Pular Tudo", 
+  "skip-only-caught": "Pular Somente Peixes Pescados", 
+  "instant-unlock": "Desbloqueio Instantâneo", 
+  "never-unlock": "Nunca Desbloquear", 
+  "second": "{0} Segundo",
+  /// Menu de Configuração ///
+  "config-menu.page.general": "Geral",
+  "config-menu.page.mini-game": "Mini-Jogo",
+  "config-menu.page.fishing-rod": "Vara de Pesca",
+  "config-menu.title.go-to-page": "Ir Para Páginas",
+  /// VINCULAÇÃO DE TECLAS ///
+  "config-menu.title.key-binding": "Vinculação de Teclas",
+  "config-menu.option.toggle-automation": "Botão de Alternar Automação",
+  "config-menu.option.catch-treasure": "Botão de Pegar Tesouro",
+  "config-menu.option.open-config-menu": "Abrir Menu de Configuração",
   /// HUD ///
-  "config-menu.title.hud": "HUD", //New
-  "config-menu.option.hud-position": "HUD Position", //New
+  "config-menu.title.hud": "HUD",
+  "config-menu.option.hud-position": "Posição do HUD", 
   /// AUTOMATION ///
-  "config-menu.title.automation": "Automation", //New
-  "config-menu.option.auto-cast-fishing-rod": "Auto Cast FishingRod", //New
-  "config-menu.option.auto-hook-fish": "Auto Hook Fish", //New
-  "config-menu.option.auto-play-mini-game": "Auto Play MiniGame", //New
-  "config-menu.option.auto-close-popup": "Auto Close Popup", //New
-  "config-menu.option.auto-loot-treasure": "Auto Loot Treasure", //New
-  "config-menu.option.action-if-inventory-full": "Action If Inventory Full", //New
-  "config-menu.option.auto-trash-junk": "Auto Trash Junk", //New
-  "config-menu.option.junk-highest-price": "Junk Highest Price", //New
-  "config-menu.option.allow-trash-fish": "Allow Trash Fish", //New
-  "config-menu.option.junk-ignore-list": "Junk Ignore List", //New
-  "config-menu.option.auto-pause-fishing": "Auto Pause Fishing", //New
-  "config-menu.option.time-to-pause": "Time To Pause", //New
-  "config-menu.option.warn-count": "Warn Count", //New
-  "config-menu.option.auto-eat-food": "Auto Eat Food", //New
-  "config-menu.option.energy-percent-to-eat": "Energy Percent To Eat", //New
-  "config-menu.option.allow-eating-fish": "Allow Eating Fish", //New
-  "config-menu.option.auto-attach-bait": "Auto Attach Bait", //New
-  "config-menu.option.prefer-bait": "Preferred Bait", //New
-  "config-menu.option.spawn-bait-if-dont-have": "Spawn Bait If Dont Have", //New
-  "config-menu.option.bait-amount-to-spawn": "Bait Amount To Spawn", //New
-  "config-menu.option.auto-attach-tackles": "Auto Attach Tackles", //New
-  "config-menu.option.prefer-tackle": "Preferred Tackle", //New
-  "config-menu.option.prefer-advanced-iridium-tackle": "Preferred Adv. Iridium Tackle", //New
-  "config-menu.option.spawn-tackle-if-dont-have": "Spawn Tackle If Dont Have", //New
+  "config-menu.title.automation": "Automação",
+  "config-menu.option.auto-cast-fishing-rod": "Arremesso Automático da Vara de Pesca",
+  "config-menu.option.auto-hook-fish": "Fisgar Peixe Automaticamente",
+  "config-menu.option.auto-play-mini-game": "Jogar Mini-Jogo Automaticamente",
+  "config-menu.option.auto-close-popup": "Fechar Pop-up Automaticamente",
+  "config-menu.option.auto-loot-treasure": "Saque Automático de Tesouros",
+  "config-menu.option.action-if-inventory-full": "Ação Se o Inventário Estiver Cheio",
+  "config-menu.option.auto-trash-junk": "Descartar Lixo Automaticamente",
+  "config-menu.option.junk-highest-price": "Lixo com Maior Preço",
+  "config-menu.option.allow-trash-fish": "Permitir Descartar Peixe",
+  "config-menu.option.junk-ignore-list": "Lista de Ignorar Lixo",
+  "config-menu.option.auto-pause-fishing": "Pausa Automática na Pesca",
+  "config-menu.option.time-to-pause": "Tempo para Pausar",
+  "config-menu.option.warn-count": "Número de Avisos",
+  "config-menu.option.auto-eat-food": "Comer Alimento Automaticamente",
+  "config-menu.option.energy-percent-to-eat": "Percentual de Energia para Comer",
+  "config-menu.option.allow-eating-fish": "Permitir Comer Peixes",
+  "config-menu.option.auto-attach-bait": "Anexar Isca Automaticamente",
+  "config-menu.option.prefer-bait": "Isca Preferida",
+  "config-menu.option.spawn-bait-if-dont-have": "Gerar Isca Se Não Tiver",
+  "config-menu.option.bait-amount-to-spawn": "Quantidade de Isca para Gerar",
+  "config-menu.option.auto-attach-tackles": "Anexar Equipamentos Automaticamente",
+  "config-menu.option.prefer-tackle": "Equipamento Preferido",
+  "config-menu.option.prefer-advanced-iridium-tackle": "Equipamento Avançado de Irídio Preferido",
+  "config-menu.option.spawn-tackle-if-dont-have": "Gerar Equipamento Se Não Tiver", 
   /// FISHING ///
-  "config-menu.title.fishing": "Fishing", //New
-  "config-menu.option.skip-fishing-mini-game": "Skip Fishing Mini-Game", //New
-  "config-menu.option.instant-fish-bite": "Instant Fish Bite", //New
-  "config-menu.option.prefer-fish-amount": "Preferred Fish Amount", //New
-  "config-menu.option.prefer-fish-quality": "Preferred Fish Quality", //New
-  "config-menu.option.always-perfect": "Always Perfect", //New
-  "config-menu.option.always-max-fish-size": "Always Max Fish Size", //New
-  "config-menu.option.fish-difficulty-multiplier": "Fish Difficulty Multiplier", //New
-  "config-menu.option.fish-difficulty-additive": "Fish Difficulty Additive", //New
-  "config-menu.option.instant-catch-treasure": "Instant Catch Treasure", //New
-  "config-menu.option.treasure-chance": "Treasure Chance", //New
-  "config-menu.option.golden-treasure-chance": "Golden Treasure Chance", //New
-  /// FISH PREVIEW ///
-  "config-menu.title.fish-preview": "Fish Preview", //New
-  "config-menu.option.display-fish-preview": "Display Fish Preview", //New
-  "config-menu.option.show-fish-name": "Show Fish Name", //New
-  "config-menu.option.show-treasure": "Show Treasure", //New
-  "config-menu.option.show-uncaught-fish": "Show Uncaught Fish", //New
-  "config-menu.option.show-legendary-fish": "Show Legendary Fish", //New
-  /// FISHING ROD ///
-  "config-menu.title.fishing-rod": "Fishing Rod", //New
-  "config-menu.option.start-with-fishing-rod": "Start With Fishing Rod", //New
-  "config-menu.option.default-cast-power": "Default Cast Power", //New
-  "config-menu.option.unlock-cast-power-time": "Unlock Cast Power Time", //New
-  "config-menu.option.reset-cast-power-to-default": "Reset Cast Power To Default", //New
-  "config-menu.option.infinite-bait": "Infinite Bait", //New
-  "config-menu.option.infinite-tackle": "Infinite Tackle", //New
-  /// Enchantment ///
-  "config-menu.title.enchantment": "Enchantments", //New
-  "config-menu.option.add-autoHook-enchantment": "Add AutoHook Enchantment", //New
-  "config-menu.option.add-efficient-enchantment": "Add Efficient Enchantment", //New
-  "config-menu.option.add-master-enchantment": "Add Master Enchantment", //New
-  "config-menu.option.add-preserving-enchantment": "Add Preserving Enchantment", //New
-  "config-menu.option.remove-enchantments-when-unequipped": "Remove When Unequipped", //New
+  "config-menu.title.fishing": "Pesca",
+  "config-menu.option.skip-fishing-mini-game": "Pular Mini-Jogo de Pesca",
+  "config-menu.option.instant-fish-bite": "Mordida Instantânea de Peixe",
+  "config-menu.option.prefer-fish-amount": "Quantidade Preferida de Peixe",
+  "config-menu.option.prefer-fish-quality": "Qualidade Preferida de Peixe",
+  "config-menu.option.always-perfect": "Sempre Perfeito",
+  "config-menu.option.always-max-fish-size": "Sempre Tamanho Máximo de Peixe",
+  "config-menu.option.fish-difficulty-multiplier": "Multiplicador de Dificuldade de Peixe",
+  "config-menu.option.fish-difficulty-additive": "Adição de Dificuldade de Peixe",
+  "config-menu.option.instant-catch-treasure": "Pegar Tesouro Instantaneamente",
+  "config-menu.option.treasure-chance": "Chance de Tesouro",
+  "config-menu.option.golden-treasure-chance": "Chance de Tesouro Dourado",
+  /// VISUALIZAÇÃO DE PEIXES ///
+  "config-menu.title.fish-preview": "Visualização de Peixes",
+  "config-menu.option.display-fish-preview": "Exibir Visualização de Peixe",
+  "config-menu.option.show-fish-name": "Mostrar Nome do Peixe",
+  "config-menu.option.show-treasure": "Mostrar Tesouro",
+  "config-menu.option.show-uncaught-fish": "Mostrar Peixes Não Pescados",
+  "config-menu.option.show-legendary-fish": "Mostrar Peixes Lendários",
+  /// VARA DE PESCA ///
+  "config-menu.title.fishing-rod": "Vara de Pesca",
+  "config-menu.option.start-with-fishing-rod": "Começar com Vara de Pesca",
+  "config-menu.option.default-cast-power": "Força Padrão de Arremesso",
+  "config-menu.option.unlock-cast-power-time": "Desbloquear Tempo de Força de Arremesso",
+  "config-menu.option.reset-cast-power-to-default": "Redefinir Força de Arremesso para o Padrão",
+  "config-menu.option.infinite-bait": "Isca Infinita",
+  "config-menu.option.infinite-tackle": "Equipamento Infinito",
+  /// ENCANTAMENTOS ///
+  "config-menu.title.enchantment": "Encantamentos",
+  "config-menu.option.add-autoHook-enchantment": "Adicionar Encantamento AutoHook",
+  "config-menu.option.add-efficient-enchantment": "Adicionar Encantamento Eficiente",
+  "config-menu.option.add-master-enchantment": "Adicionar Encantamento Mestre",
+  "config-menu.option.add-preserving-enchantment": "Adicionar Encantamento de Preservação",
+  "config-menu.option.remove-enchantments-when-unequipped": "Remover Quando Não Equipado", 
   /// MESSAGE ///
-  "hud-message.automation-toggle": "Fishing Assistant 2 is {0}", //New
-  "hud-message.catch-treasure-toggle": "Catch treasure is {0}", //New
-  "hud-message.low-stamina": "Low stamina", //New
-  "hud-message.inventory-full": "Inventory Full", //New
-  "hud-message.auto-disable": "It's already past {0}", //New
-  "hud-message.auto-attach": "Auto Attach {0} To {1}", //New
-  "hud-message.auto-attach-spawned": "Auto Attach Spawned {0} To {1}", //New
-  "hud-message.auto-eat-food": "Auto Eat {0}", //New
-  "hud-message.move-trash-to-junk": "Moved {0} x{1} to trash can", //New
-  "hud-message.actual-trash-junk": "Trashed {0} items in the trash can", //New
-  "hud-message.add-to-ignore-list": "Ignore {0} from auto trash", //New
+  "hud-message.automation-toggle": "Assistente de Pesca 2 está {0}",
+  "hud-message.catch-treasure-toggle": "Pegar tesouro está {0}",
+  "hud-message.low-stamina": "Baixa estamina",
+  "hud-message.inventory-full": "Inventário Cheio",
+  "hud-message.auto-disable": "Já passou de {0}",
+  "hud-message.auto-attach": "Anexar Automaticamente {0} a {1}",
+  "hud-message.auto-attach-spawned": "Anexar Automaticamente {0} Gerado a {1}",
+  "hud-message.auto-eat-food": "Comer Automaticamente {0}",
+  "hud-message.move-trash-to-junk": "Movido {0} x{1} para a lixeira",
+  "hud-message.actual-trash-junk": "Descartados {0} itens na lixeira",
+  "hud-message.add-to-ignore-list": "Ignorar {0} do descarte automático", 
   /// TOOLTIP ///
-  "tooltip.enable-automation-button": "Button for toggling automation of this mod", //New
-  "tooltip.catch-treasure-button": "Button for toggling catch or ignore treasure in fishing mini-game", //New
-  "tooltip.open-config-menu": "Button for quickly open Fishing assistant2 GMCM in-game config menu", //New
-  "tooltip.mod-status-position": "Position to display mod status", //New
-  "tooltip.auto-cast-fishing-rod": "Toggle for auto-casting fishing rod", //New
-  "tooltip.auto-hook-fish": "Toggle for auto-hooking fish", //New
-  "tooltip.auto-play-mini-game": "Toggle for automatically playing fishing mini-game", //New
-  "tooltip.auto-close-popup": "Toggle for automatically closing fish popup", //New
-  "tooltip.auto-loot-treasure": "Toggle for automatically looting treasure", //New
-  "tooltip.action-if-inventory-full": "Action to take if inventory is full while looting", //New
-  "tooltip.auto-trash-junk": "Toggle for automatically trashing junk items when obtaining new items", //New
-  "tooltip.junk-highest-price": "Items priced less than or equal to this are considered junk", //New
-  "tooltip.allow-trash-fish": "Toggle for allowing trashing of fish with a sale price corresponding to 'JunkHighestPrice'", //New
-  "tooltip.auto-pause-fishing": "Should the mod auto-pause fishing during nighttime", //New
-  "tooltip.time-to-pause": "Time to trigger fishing pause", //New
-  "tooltip.warn-count": "Number of warnings the mod will give if you continue fishing after reaching 'TimeToPause'", //New
-  "tooltip.auto-eat-food": "Toggle to automatically eat food from inventory", //New
-  "tooltip.energy-percent-to-eat": "Energy percentage considered low, and finding some food to eat", //New
-  "tooltip.allow-eating-fish": "Toggle for allowing the eating of caught fish", //New
-  "tooltip.skip-fishing-mini-game": "Toggle to instantly skip fishing mini-game", //New
-  "tooltip.default-cast-power": "Preference for casting power", //New
-  "tooltip.instant-fish-bite": "Toggle for instantly making fish bite", //New
-  "tooltip.prefer-fish-amount": "Preference for the amount of fish pulled from water", //New
-  "tooltip.prefer-fish-quality": "Quality of caught fish", //New
-  "tooltip.always-perfect": "Whether to consider every catch as perfect", //New
-  "tooltip.always-max-fish-size": "Toggle to always catch fish at maximum size", //New
-  "tooltip.fish-difficulty-multiplier": "Multiplier applied to fish difficulty", //New
-  "tooltip.fish-difficulty-additive": "Value added to fish difficulty", //New
-  "tooltip.instant-catch-treasure": "Instantly catch treasure when it appears", //New
-  "tooltip.treasure-chance": "Chance of finding treasure while fishing", //New
-  "tooltip.golden-treasure-chance": "Chance of finding golden treasure while fishing", //New
-  "tooltip.display-fish-preview": "Toggle for displaying fish info while catching fish", //New
-  "tooltip.show-fish-name": "Toggle for showing fish name with fish info", //New
-  "tooltip.show-treasure": "Toggle for showing treasure with fish info", //New
-  "tooltip.show-uncaught-fish": "Show a preview for all fish species, even those you have never caught", //New
-  "tooltip.show-legendary-fish": "Toggle for showing fish info if the current fish is legendary", //New
-  "tooltip.start-with-fishing-rod": "Start the game at day 1 with fishing rod", //New
-  "tooltip.auto-attach-bait": "Toggle for automatically attaching bait if possible", //New
-  "tooltip.preferred-bait": "Preference for bait type", //New
-  "tooltip.infinite-bait": "Make your fishing bait last indefinitely", //New
-  "tooltip.spawn-bait-if-dont-have": "Toggle for spawning bait if none is available", //New
-  "tooltip.bait-amount-to-spawn": "Amount of bait to spawn", //New
-  "tooltip.auto-attach-tackles": "Toggle for automatically attaching tackles if possible", //New
-  "tooltip.preferred-tackle": "Preference for tackle type in the first slot", //New
-  "tooltip.preferred-adv-iridium-tackle": "Preference for tackle type in the second slot of the Adv. iridium rod", //New
-  "tooltip.infinite-tackle": "Make your tackle last indefinitely", //New
-  "tooltip.spawn-tackle-if-dont-have": "Toggle for spawning tackle if none are available", //New
-  "tooltip.add-auto-hook-enchantment": "Toggle for adding Auto-Hook enchantment to fishing rod", //New
-  "tooltip.add-efficient-enchantment": "Toggle for adding Efficient enchantment to fishing rod", //New
-  "tooltip.add-master-enchantment": "Toggle for adding Master enchantment to fishing rod", //New
-  "tooltip.add-preserving-enchantment": "Toggle for adding Preserving enchantment to fishing rod", //New
-  "tooltip.remove-when-unequipped": "Toggle for removing enchantment when fishing rod is unequipped", //New
-  "tooltip.unlock-cast-power-time": "Time to hold cast button for X second to unlock cast power back to normal", //New
-  "tooltip.junk-ignore-list": "List of items to be excluded from automatic trash", //New
+  "tooltip.enable-automation-button": "Botão para alternar a automação deste mod",
+  "tooltip.catch-treasure-button": "Botão para alternar entre pegar ou ignorar tesouro no mini-jogo de pesca",
+  "tooltip.open-config-menu": "Botão para abrir rapidamente o menu de configuração do Assistente de Pesca 2 no jogo",
+  "tooltip.mod-status-position": "Posição para exibir o status do mod",
+  "tooltip.auto-cast-fishing-rod": "Alternar para arremessar a vara de pesca automaticamente",
+  "tooltip.auto-hook-fish": "Alternar para fisgar o peixe automaticamente",
+  "tooltip.auto-play-mini-game": "Alternar para jogar automaticamente o mini-jogo de pesca",
+  "tooltip.auto-close-popup": "Alternar para fechar automaticamente o popup de peixe",
+  "tooltip.auto-loot-treasure": "Alternar para saquear automaticamente o tesouro",
+  "tooltip.action-if-inventory-full": "Ação a ser realizada se o inventário estiver cheio ao saquear",
+  "tooltip.auto-trash-junk": "Alternar para descartar automaticamente itens inúteis ao obter novos itens",
+  "tooltip.junk-highest-price": "Itens com preço menor ou igual a este são considerados inúteis",
+  "tooltip.allow-trash-fish": "Alternar para permitir o descarte de peixes com preço de venda correspondente a 'JunkHighestPrice'",
+  "tooltip.auto-pause-fishing": "O mod deve pausar automaticamente a pesca durante a noite",
+  "tooltip.time-to-pause": "Hora para acionar a pausa na pesca",
+  "tooltip.warn-count": "Número de avisos que o mod dará se você continuar pescando após atingir o 'TimeToPause'",
+  "tooltip.auto-eat-food": "Alternar para comer automaticamente comida do inventário",
+  "tooltip.energy-percent-to-eat": "Percentual de energia considerado baixo para procurar comida para comer",
+  "tooltip.allow-eating-fish": "Alternar para permitir comer os peixes pescados",
+  "tooltip.skip-fishing-mini-game": "Alternar para pular instantaneamente o mini-jogo de pesca",
+  "tooltip.default-cast-power": "Preferência para a força de arremesso",
+  "tooltip.instant-fish-bite": "Alternar para fazer o peixe morder instantaneamente",
+  "tooltip.prefer-fish-amount": "Preferência pela quantidade de peixes pescados",
+  "tooltip.prefer-fish-quality": "Qualidade dos peixes pescados",
+  "tooltip.always-perfect": "Considerar toda captura como perfeita",
+  "tooltip.always-max-fish-size": "Alternar para sempre pescar peixes do tamanho máximo",
+  "tooltip.fish-difficulty-multiplier": "Multiplicador aplicado à dificuldade dos peixes",
+  "tooltip.fish-difficulty-additive": "Valor adicionado à dificuldade dos peixes",
+  "tooltip.instant-catch-treasure": "Pegar tesouro instantaneamente quando aparecer",
+  "tooltip.treasure-chance": "Chance de encontrar tesouro ao pescar",
+  "tooltip.golden-treasure-chance": "Chance de encontrar tesouro dourado ao pescar",
+  "tooltip.display-fish-preview": "Alternar para exibir informações dos peixes enquanto pesca",
+  "tooltip.show-fish-name": "Alternar para mostrar o nome do peixe com as informações",
+  "tooltip.show-treasure": "Alternar para mostrar o tesouro com as informações",
+  "tooltip.show-uncaught-fish": "Mostrar prévia de todas as espécies de peixes, mesmo as que você nunca pescou",
+  "tooltip.show-legendary-fish": "Alternar para mostrar as informações se o peixe atual for lendário",
+  "tooltip.start-with-fishing-rod": "Começar o jogo no dia 1 com vara de pesca",
+  "tooltip.auto-attach-bait": "Alternar para anexar automaticamente isca, se possível",
+  "tooltip.preferred-bait": "Preferência pelo tipo de isca",
+  "tooltip.infinite-bait": "Fazer sua isca durar indefinidamente",
+  "tooltip.spawn-bait-if-dont-have": "Alternar para gerar isca se não houver disponível",
+  "tooltip.bait-amount-to-spawn": "Quantidade de isca a ser gerada",
+  "tooltip.auto-attach-tackles": "Alternar para anexar automaticamente os equipamentos, se possível",
+  "tooltip.preferred-tackle": "Preferência pelo tipo de equipamento no primeiro slot",
+  "tooltip.preferred-adv-iridium-tackle": "Preferência pelo tipo de equipamento no segundo slot da vara de irídio avançada",
+  "tooltip.infinite-tackle": "Fazer seu equipamento durar indefinidamente",
+  "tooltip.spawn-tackle-if-dont-have": "Alternar para gerar equipamentos se não houver disponível",
+  "tooltip.add-auto-hook-enchantment": "Alternar para adicionar o encantamento Auto-Hook à vara de pesca",
+  "tooltip.add-efficient-enchantment": "Alternar para adicionar o encantamento Eficiente à vara de pesca",
+  "tooltip.add-master-enchantment": "Alternar para adicionar o encantamento Mestre à vara de pesca",
+  "tooltip.add-preserving-enchantment": "Alternar para adicionar o encantamento de Preservação à vara de pesca",
+  "tooltip.remove-when-unequipped": "Alternar para remover o encantamento quando a vara de pesca for desequipada",
+  "tooltip.unlock-cast-power-time": "Tempo para segurar o botão de arremesso por X segundos para desbloquear a força de arremesso de volta ao normal",
+  "tooltip.junk-ignore-list": "Lista de itens a serem excluídos do descarte automático" 
 }
